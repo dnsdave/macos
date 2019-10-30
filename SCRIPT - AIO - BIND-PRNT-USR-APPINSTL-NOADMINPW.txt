@@ -1,0 +1,45 @@
+#!/bin/bash
+
+
+
+
+#APREP add to AD
+dsconfigad -remove APREP.LOCAL -computer "AP-MBA-16059" -username "administrator"
+dsconfigad -add APREP.LOCAL -computer "AP-MBA-16059" —mobile enable -username "administrator"
+#TR-ES add and remove to OD
+dsconfigldap -a trpcses.tworiverspcs.lan -c "tre-131001" -u "administrator"
+dsconfigldap -r trpcses.tworiverspcs.lan -c "tre-131001" -u "administrator" 
+#TR-MS add and remove to OD
+dsconfigldap -a trpcsms.tworiverspcs.lan -c "trm-231001" -u "administrator" 
+dsconfigldap -r trpcsms.tworiverspcs.lan -c "trm-231001" -u "administrator" 
+#TR-YOUNG add and remove to OD
+dsconfigldap -a trpcsyoung.tworiverspcs.lan -c "try-331001" -u "tradmin" 
+dsconfigldap -r trpcsyoung.tworiverspcs.lan -c "try-331001" -u "tradmin" 
+
+
+#TR-ES Kyocera
+lpadmin -E -p "TRE-FD" -v "lpd://10.31.2.200" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TR-ES-FD"; cupsaccept "TR-ES-FD";
+lpadmin -E -p "TRE-RM101A" -v "lpd://10.31.2.201" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TR-ES-RM101A"; cupsaccept "TR-ES-RM101A";
+lpadmin -E -p "TRE-RM306" -v "lpd://10.31.2.203" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TR-ES-RM306"; cupsaccept "TR-ES-RM306";
+#TR-MS Kyocera
+lpadmin -E -p "TRM-FD" -v "lpd://10.31.2.200" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRM-FD"; cupsaccept "TRM-FD";
+lpadmin -E -p "TRM-RM205" -v "lpd://10.31.2.201" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRM-RM205"; cupsaccept "TRM-RM205";
+#TR-Young Kyocera
+lpadmin -E -p "TRY-FRONTDESK" -v "lpd://10.41.2.200" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRY-FRONTDESK"; cupsaccept "TRY-FRONTDESK";
+lpadmin -E -p "TRY-2NDFLOOR" -v "lpd://10.41.2.201" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRY-2NDFLOOR"; cupsaccept "TRY-2NDFLOOR";
+#TR-MS Dell 2330DN Series
+lpadmin -E -p "TRM-RM102_11" -v "lpd://10.31.0.11" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRM-RM102_11"; cupsaccept "TRM-RM102_11";
+lpadmin -E -p "TRM-RM104_12" -v "lpd://10.31.0.12" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRM-RM104_12"; cupsaccept "TRM-RM104_12";
+lpadmin -E -p "TRM-RM200_13" -v "lpd://10.31.0.13" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRM-RM200_13"; cupsaccept "TRM-RM200_13";
+lpadmin -E -p "TRM-RM202_18" -v "lpd://10.31.0.18" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRM-RM202_18"; cupsaccept "TRM-RM202_18";
+lpadmin -E -p "TRM-RM204_14" -v "lpd://10.31.0.14" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRM-RM204_14"; cupsaccept "TRM-RM204_14";
+lpadmin -E -p "TRM-RM300_15" -v "lpd://10.31.0.15" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRM-RM300_15"; cupsaccept "TRM-RM300_15";
+lpadmin -E -p "TRM-RM302_16" -v "lpd://10.31.0.16" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRM-RM302_16"; cupsaccept "TRM-RM302_16";
+lpadmin -E -p "TRM-RM304_17" -v "lpd://10.31.0.17" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TRM-RM304_17"; cupsaccept "TRM-RM304_17";
+#TR-ES Dell 2330DN Series
+lpadmin -E -p "TR-ES-FD" -v "lpd://10.31.2.200" -P "/Volumes/Servers/AFFA_ST_MFP_1.ppd" -o printer-is-shared=false; cupsenable "TR-ES-FD"; cupsaccept "TR-ES-FD";
+
+
+
+installer -pkg /Users/dnsadmin/Desktop/LTechAgent-APrep/LTSvc.mpkg -target /
+

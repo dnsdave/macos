@@ -1,0 +1,9 @@
+#!/bin/bash
+
+u=`/usr/bin/who | grep console | cut -d ' ' -f1`
+
+c=`sed -nE -e "/^$u, ?/s/^.+, ?//p" codes.csv`
+
+/usr/libexec/PlistBuddy -c "Set :ms205bw:com.apple.print.preset.settings:ManagementCodeValue $c" ~/Library/Preferences/com.apple.print.custompresets.forprinter.MS2ndFloor8001iBW.plist
+
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue $c" ~/Library/Preferences/com.apple.print.custompresets.forprinter.MS2ndFloor8001iBW.plist

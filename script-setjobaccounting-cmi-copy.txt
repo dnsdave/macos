@@ -1,0 +1,19 @@
+#!/bin/bash
+#This is a script to set the job accounting code for Kyocera print drivers on macOS
+#It uses the PlistBuddy utility installed in macOS to edit the print preference plist file
+
+/usr/libexec/PlistBuddy -c "Set :cmi2nd:com.apple.print.preset.settings:ManagementCodeValue 4421" /Users/aanton/Library/Preferences/com.apple.print.custompresets.forprinter.CMI2ndFloorColor.plist
+
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 4421" /Users/aanton/Library/Preferences/com.apple.print.custompresets.forprinter.CMI2ndFloorColor.plist
+
+/usr/libexec/PlistBuddy -c "Set :cmi3rd:com.apple.print.preset.settings:ManagementCodeValue 4421" /Users/aanton/Library/Preferences/com.apple.print.custompresets.forprinter.CMI3rdFloorColor.plist
+
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 4421" /Users/aanton/Library/Preferences/com.apple.print.custompresets.forprinter.CMI3rdFloorColor.plist
+
+/usr/libexec/PlistBuddy -c "Set :cmigr-col:com.apple.print.preset.settings:ManagementCodeValue 4421" /Users/aanton/Library/Preferences/com.apple.print.custompresets.forprinter.CMIGroundFloorColor.plist
+
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 4421" /Users/aanton/Library/Preferences/com.apple.print.custompresets.forprinter.CMIGroundFloorColor.plist
+
+/usr/libexec/PlistBuddy -c "Set :cmigr-bw:com.apple.print.preset.settings:ManagementCodeValue 4421" /Users/aanton/Library/Preferences/com.apple.print.custompresets.forprinter.CMIGroundFloorBW.plist
+
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 4421" /Users/aanton/Library/Preferences/com.apple.print.custompresets.forprinter.CMIGroundFloorBW.plist

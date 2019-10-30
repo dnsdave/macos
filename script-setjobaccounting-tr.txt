@@ -1,0 +1,63 @@
+#set download locations
+
+
+DownloadServer="https://osxdownload.dnsolutions.com"
+CSVName="trprintcodes.csv"
+Usernamelist=()
+while IFS= read -r line; do
+    Usernamelist+=( "$line" )
+done < <( dscl . list /Users | grep -v '_' )
+
+echo $Usernamelist
+my_array_length=${#Usernamelist[@]}
+echo $my_array_length
+echo
+cd /Users/Shared;
+echo "You are about to download $CSVName to this folder:"
+pwd
+echo
+curl -O -L -k "$DownloadServer/TwoRivers/$CSVName"
+echo
+
+for u in "${Usernamelist[@]}"
+do
+if [[ "$u" != "root" && "$u" != "daemon" && "$u" != "root" && "$u" != "nobody" && "$u" != "dnsadmin" && "$u" != "tradmin" ]]; then
+
+c=`sed -nE -e "/^$u, ?/s/^.+, ?//p" /Users/Shared/$CSVName`
+if [ ! -z "$c" ]; then
+echo
+echo "The print code for $u is $c"
+echo
+cd /Users/$u/Library/Preferences
+echo "You are about to download the plist files to this folder:"
+pwd
+echo
+curl -O -L -k "$DownloadServer/TwoRivers/com.apple.print.custompresets.forprinter.ES1stFloor8001iBW.plist"
+curl -O -L -k "$DownloadServer/TwoRivers/com.apple.print.custompresets.forprinter.ES3rdFloor7551ci.plist"
+curl -O -L -k "$DownloadServer/TwoRivers/com.apple.print.custompresets.forprinter.ES3rdFloor7551ciBW.plist"
+curl -O -L -k "$DownloadServer/TwoRivers/com.apple.print.custompresets.forprinter.MS2ndFloor8001iBW.plist"
+curl -O -L -k "$DownloadServer/TwoRivers/com.apple.print.custompresets.forprinter.Young2ndFloor7551ci.plist"
+curl -O -L -k "$DownloadServer/TwoRivers/com.apple.print.custompresets.forprinter.Young2ndFloor7551ciBW.plist"
+echo
+echo "Here is a list of all the files you just downloaded:"
+ls -la | grep "forprinter"
+
+/usr/libexec/PlistBuddy -c "Set :ms2ndbw:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.MS2ndFloor8001iBW.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.MS2ndFloor8001iBW.plist
+/usr/libexec/PlistBuddy -c "Set :es1stbw:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.ES1stFloor8001iBW.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.ES1stFloor8001iBW.plist
+/usr/libexec/PlistBuddy -c "Set :es3rdcol:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.ES3rdFloor7551ci.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.ES3rdFloor7551ci.plist
+/usr/libexec/PlistBuddy -c "Set :es3rdbw:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.ES3rdFloor7551ciBW.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.ES3rdFloor7551ciBW.plist
+/usr/libexec/PlistBuddy -c "Set :young2ndcol:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.Young2ndFloor7551ci.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.Young2ndFloor7551ci.plist
+/usr/libexec/PlistBuddy -c "Set :young2ndbw:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.Young2ndFloor7551ciBW.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue $c" /Users/$u/Library/Preferences/com.apple.print.custompresets.forprinter.Young2ndFloor7551ciBW.plist
+
+echo 'complete script'
+fi
+
+fi
+
+done

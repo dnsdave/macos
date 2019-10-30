@@ -1,0 +1,355 @@
+Dict {
+    com.apple.print.customPresetNames = Array {
+        3rdfloor2
+        3rdfloor3
+    }
+    com.apple.print.lastUsedSettingsPref = Dict {
+        com.apple.print.preset.settings = Dict {
+            KmUserLoginPromptAtPrint = YES
+            KmUserLoginPasswordValue = 
+            BoxPasswordValue = 
+            KmJobSettingsEnabled = Off
+            KmJobAccountingState = On
+            com.apple.print.PrintSettings.PMLastPage = 2147483647
+            Rotate = False
+            KCEcoprint = Off
+            com.apple.print.PrintSettings.PMPageRange = Array {
+                1
+                2147483647
+            }
+            KCBooklet = None
+            KmTransparencyinterleavingState = Off
+            KmUserLoginIDValue = 
+            AccessCodeValue = 
+            com.apple.print.PageToPaperMappingMediaName = Letter
+            com.apple.print.PageToPaperMappingAllowScalingUp = true
+            CaContrast = 0
+            JobNameValue = Untitled
+            BookletBinding = false
+            BookletType = 0
+            com.apple.print.PrintSettings.PMDuplexing = 1
+            com.apple.print.ticket.type = com.apple.print.PrintSettingsTicket
+            KmEmailSettingsEnabled = Off
+            KmCustomBoxPromptFlag = Off
+            Custom = Off
+            KmUserLoginEnabled = Off
+            KCFoldA = None
+            JobNameState = 0
+            KCFold = False
+            JobName = 1
+            KCFoldC = None
+            KCFoldB = None
+            KmManagment = MG00000000
+            BoxNumberValue = 
+            KCFoldD = None
+            KmWatermarkState = Off
+            com.apple.print.PageToPaperMappingType = 1
+            AP_D_InputSlot = 
+            KCFeedingEdge = None
+            KmPageinsertState = Off
+            com.apple.print.preset.Orientation = 1
+            KCPunch = None
+            StapleCount = None
+            com.apple.print.PrintSettings.PMDestinationType = 1
+            KCUserLogin = False
+            KCStaple = None
+            job-sheets = none
+            com.apple.print.PrintSettings.PMCopies = 1
+            KmCoverModeState = Off
+            OutputBin = None
+            ManagementCodeValue = 3003
+            CaColorMode = 0
+            com.apple.print.preset.PaperInfo = Dict {
+                paperInfo = Dict {
+                    com.apple.print.PageFormat.PMAdjustedPaperRect = Array {
+                        -8.000000
+                        -12.000000
+                        784.000000
+                        600.000000
+                    }
+                    com.apple.print.PaperInfo.PMCustomPaper = false
+                    com.apple.print.PaperInfo.PMPaperName = na-letter
+                    com.apple.print.PaperInfo.PMUnadjustedPaperRect = Array {
+                        -8.000000
+                        -12.000000
+                        784.000000
+                        600.000000
+                    }
+                    PMTiogaPaperName = na-letter
+                    PMPPDPaperCodeName = Letter
+                    com.apple.print.PaperInfo.ppd.PMPaperName = Letter
+                    com.apple.print.ticket.type = com.apple.print.PaperInfoTicket
+                    com.apple.print.PaperInfo.PMUnadjustedPageRect = Array {
+                        0
+                        0
+                        776.000000
+                        588.000000
+                    }
+                    PMPPDTranslationStringPaperName = Letter
+                    com.apple.print.PageFormat.PMAdjustedPageRect = Array {
+                        0
+                        0
+                        776.000000
+                        588.000000
+                    }
+                }
+            }
+            StapleStatus = 273
+            Jog = False
+            com.apple.print.PrintSettings.PMColorSpaceModel = 1
+            com.apple.print.PrintSettings.PMCopyCollate = true
+            CIE = PrnDef
+            KCRotate = False
+            MediaType = PrnDef
+            com.apple.print.PrintSettings.PMFirstPage = 1
+            PaperInfoIsSuggested = true
+            com.apple.print.subTicket.paper_info_ticket = Dict {
+                com.apple.print.PaperInfo.PMPaperName = na-letter
+                com.apple.print.PaperInfo.PMUnadjustedPaperRect = Array {
+                    -8.000000
+                    -12.000000
+                    784.000000
+                    600.000000
+                }
+                PMTiogaPaperName = na-letter
+                PMPPDPaperCodeName = Letter
+                com.apple.print.PaperInfo.ppd.PMPaperName = Letter
+                com.apple.print.PaperInfo.PMDisplayName = na-letter
+                com.apple.print.ticket.type = com.apple.print.PaperInfoTicket
+                com.apple.print.PaperInfo.PMUnadjustedPageRect = Array {
+                    0
+                    0
+                    776.000000
+                    588.000000
+                }
+                PMPPDTranslationStringPaperName = Letter
+                com.apple.print.PaperInfo.PMPPDPaperDimension = Array {
+                    0
+                    0
+                    612.000000
+                    792.000000
+                }
+            }
+            CaBrightness = 0
+            KCCollate = PrnDef
+            Smoothing = True
+        }
+        com.apple.print.preset.id = com.apple.print.lastUsedSettingsPref
+    }
+    3rdfloor2 = Dict {
+        com.apple.print.preset.settings = Dict {
+            com.apple.print.preset.PaperInfo = Dict {
+                paperInfo = Dict {
+                    com.apple.print.PaperInfo.PMPaperName = na-letter
+                    com.apple.print.PaperInfo.PMUnadjustedPaperRect = Array {
+                        -8.000000
+                        -12.000000
+                        784.000000
+                        600.000000
+                    }
+                    PMTiogaPaperName = na-letter
+                    PMPPDPaperCodeName = Letter
+                    com.apple.print.PaperInfo.ppd.PMPaperName = Letter
+                    com.apple.print.ticket.type = com.apple.print.PaperInfoTicket
+                    com.apple.print.PaperInfo.PMUnadjustedPageRect = Array {
+                        0
+                        0
+                        776.000000
+                        588.000000
+                    }
+                    com.apple.print.ticket.APIVersion = 01.00
+                    PMPPDTranslationStringPaperName = Letter
+                    com.apple.print.PaperInfo.PMCustomPaper = false
+                }
+            }
+            com.apple.print.subTicket.paper_info_ticket = Dict {
+                com.apple.print.PaperInfo.PMPaperName = na-letter
+                com.apple.print.PaperInfo.PMUnadjustedPaperRect = Array {
+                    -8.000000
+                    -12.000000
+                    784.000000
+                    600.000000
+                }
+                PMTiogaPaperName = na-letter
+                PMPPDPaperCodeName = Letter
+                com.apple.print.PaperInfo.ppd.PMPaperName = Letter
+                com.apple.print.PaperInfo.PMDisplayName = na-letter
+                com.apple.print.ticket.type = com.apple.print.PaperInfoTicket
+                com.apple.print.PaperInfo.PMUnadjustedPageRect = Array {
+                    0
+                    0
+                    776.000000
+                    588.000000
+                }
+                PMPPDTranslationStringPaperName = Letter
+                com.apple.print.PaperInfo.PMPPDPaperDimension = Array {
+                    0
+                    0
+                    612.000000
+                    792.000000
+                }
+            }
+            com.apple.print.PrintSettings.PMColorSpaceModel = 1
+            com.apple.print.PrintSettings.PMCopyCollate = true
+            StapleStatus = 273
+            PaperInfoIsSuggested = true
+            com.apple.print.PrintSettings.PMDuplexing = 1
+            com.apple.print.ticket.type = com.apple.print.PrintSettingsTicket
+            com.apple.print.preset.Orientation = 1
+            JobNameValue = 
+            KmJobAccountingState = On
+            com.apple.print.PageToPaperMappingMediaName = Letter
+            com.apple.print.PrintSettings.PMDestinationType = 1
+            BookletBinding = false
+            BookletType = 0
+            KmManagment = MG00000000
+            com.apple.print.PrintSettings.PMPageRange = Array {
+                1
+                2147483647
+            }
+            ManagementCodeValue = 5555
+            AP_D_InputSlot = 
+            com.apple.print.PrintSettings.PMCopies = 1
+            com.apple.print.PageToPaperMappingType = 1
+            com.apple.print.PrintSettings.PMFirstPage = 1
+            JobName = 1
+            com.apple.print.PrintSettings.PMLastPage = 2147483647
+        }
+        com.apple.print.preset.id = 3rdfloor2
+    }
+    com.apple.print.lastPresetPrefType = 4
+    3rdfloor3 = Dict {
+        com.apple.print.preset.settings = Dict {
+            KmUserLoginPromptAtPrint = YES
+            KmUserLoginPasswordValue = 
+            BoxPasswordValue = 
+            KmJobSettingsEnabled = Off
+            KmJobAccountingState = On
+            com.apple.print.PrintSettings.PMLastPage = 2147483647
+            Rotate = False
+            KCEcoprint = Off
+            com.apple.print.PrintSettings.PMPageRange = Array {
+                1
+                2147483647
+            }
+            KCBooklet = None
+            KmTransparencyinterleavingState = Off
+            KmUserLoginIDValue = 
+            AccessCodeValue = 
+            com.apple.print.PageToPaperMappingMediaName = Letter
+            com.apple.print.PageToPaperMappingAllowScalingUp = true
+            CaContrast = 0
+            JobNameValue = Untitled
+            BookletBinding = false
+            BookletType = 0
+            com.apple.print.PrintSettings.PMDuplexing = 1
+            com.apple.print.ticket.type = com.apple.print.PrintSettingsTicket
+            KmEmailSettingsEnabled = Off
+            KmCustomBoxPromptFlag = Off
+            KmUserLoginEnabled = Off
+            KCFoldA = None
+            JobNameState = 0
+            KCFold = False
+            JobName = 1
+            KCFoldC = None
+            KCFoldB = None
+            KmManagment = MG00000000
+            BoxNumberValue = 
+            KCFoldD = None
+            KmWatermarkState = Off
+            com.apple.print.PageToPaperMappingType = 1
+            AP_D_InputSlot = 
+            KCFeedingEdge = None
+            KmPageinsertState = Off
+            com.apple.print.preset.Orientation = 1
+            KCPunch = None
+            StapleCount = None
+            com.apple.print.PrintSettings.PMDestinationType = 1
+            KCUserLogin = False
+            KCStaple = None
+            job-sheets = none
+            com.apple.print.PrintSettings.PMCopies = 1
+            KmCoverModeState = Off
+            OutputBin = None
+            ManagementCodeValue = 3003
+            CaColorMode = 0
+            com.apple.print.preset.PaperInfo = Dict {
+                paperInfo = Dict {
+                    com.apple.print.PageFormat.PMAdjustedPaperRect = Array {
+                        -8.000000
+                        -12.000000
+                        784.000000
+                        600.000000
+                    }
+                    com.apple.print.PaperInfo.PMCustomPaper = false
+                    com.apple.print.PaperInfo.PMPaperName = na-letter
+                    com.apple.print.PaperInfo.PMUnadjustedPaperRect = Array {
+                        -8.000000
+                        -12.000000
+                        784.000000
+                        600.000000
+                    }
+                    PMTiogaPaperName = na-letter
+                    PMPPDPaperCodeName = Letter
+                    com.apple.print.PaperInfo.ppd.PMPaperName = Letter
+                    com.apple.print.ticket.type = com.apple.print.PaperInfoTicket
+                    com.apple.print.PaperInfo.PMUnadjustedPageRect = Array {
+                        0
+                        0
+                        776.000000
+                        588.000000
+                    }
+                    PMPPDTranslationStringPaperName = Letter
+                    com.apple.print.PageFormat.PMAdjustedPageRect = Array {
+                        0
+                        0
+                        776.000000
+                        588.000000
+                    }
+                }
+            }
+            StapleStatus = 273
+            Jog = False
+            com.apple.print.PrintSettings.PMColorSpaceModel = 1
+            com.apple.print.PrintSettings.PMCopyCollate = true
+            CIE = PrnDef
+            KCRotate = False
+            MediaType = PrnDef
+            com.apple.print.PrintSettings.PMFirstPage = 1
+            PaperInfoIsSuggested = true
+            com.apple.print.subTicket.paper_info_ticket = Dict {
+                com.apple.print.PaperInfo.PMPaperName = na-letter
+                com.apple.print.PaperInfo.PMUnadjustedPaperRect = Array {
+                    -8.000000
+                    -12.000000
+                    784.000000
+                    600.000000
+                }
+                PMTiogaPaperName = na-letter
+                PMPPDPaperCodeName = Letter
+                com.apple.print.PaperInfo.ppd.PMPaperName = Letter
+                com.apple.print.PaperInfo.PMDisplayName = na-letter
+                com.apple.print.ticket.type = com.apple.print.PaperInfoTicket
+                com.apple.print.PaperInfo.PMUnadjustedPageRect = Array {
+                    0
+                    0
+                    776.000000
+                    588.000000
+                }
+                PMPPDTranslationStringPaperName = Letter
+                com.apple.print.PaperInfo.PMPPDPaperDimension = Array {
+                    0
+                    0
+                    612.000000
+                    792.000000
+                }
+            }
+            CaBrightness = 0
+            KCCollate = PrnDef
+            Smoothing = True
+        }
+        com.apple.print.preset.id = 3rdfloor3
+    }
+    com.apple.print.lastPresetPref = 3rdfloor3
+}
+MC02NG23CG085:Preferences dnsadmin$ 
