@@ -1,7 +1,7 @@
 #set download locations
 
 
-DownloadServer="https://osxdownload.dnsolutions.com"
+DownloadServer=$dnsolutionsMUNKI
 CSVName="trprintcodes.csv"
 Usernamelist=()
 while IFS= read -r line; do
