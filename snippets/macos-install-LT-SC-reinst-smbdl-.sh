@@ -2,8 +2,8 @@
 # set variables
 serverip="10.41.0.33"
 dlname="cw.zip"
-serverpath=""
-dlpath=""
+# serverpath=""
+# dlpath=""
 # uninstall ScreenConnect
 sudo launchctl unload /Library/LaunchDaemons/screenconnect*
 sudo rm -rf /opt/screenconnect*
