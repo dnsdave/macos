@@ -1,0 +1,1555 @@
+on run {input, parameters}
+	-- Click “Finder” in the Dock.
+	delay 2.947313
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Finder\" of list 1 of application process \"Dock\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “Applications”
+	delay 2.292807
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 4 of outline 1 of scroll area 1 of splitter group 1 of window \"Recents\" of application process \"Finder\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type “Kyocera Print Panel” into the text field.
+	delay 4.923407
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 25 of list 1 of scroll area 1 of scroll area 1 of browser 1 of splitter group 1 of splitter group 1 of window \"Applications\" of application process \"Finder\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Type “Kyocera Print Panel” into the text field.
+	delay 0.185443
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 25 of list 1 of scroll area 1 of scroll area 1 of browser 1 of splitter group 1 of splitter group 1 of window \"Applications\" of application process \"Finder\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM100-6053-BW”
+	delay 7.690598
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 1 of table 1 of scroll area 2 of group 1 of window \"Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.440033
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.667689
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.178611
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+--------------------------------------------
+-- determine how to enter text
+
+
+--------------------------------------------
+
+
+	-- Click the “Apply” button.
+	delay 3.954155
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.959705
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM100-6053-BW-Duplex”
+	delay 1.507714
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 2 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.911881
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.667664
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.227127
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.504787
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.207671
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.091137
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM100-6053-Color”
+	delay 1.147058
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 3 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.399500
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.523435
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 4.117574
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.148022
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM100-6053-Color-Duplex”
+	delay 1.879371
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 4 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.139827
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.784105
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.283158
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.393370
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.287737
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM101-M2640-BW”
+	delay 2.003756
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 5 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.440229
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.411448
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.138771
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.249033
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.119715
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM101-M2640-BW-Duplex”
+	delay 1.667259
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 6 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.227215
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.535323
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 2.379542
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.280376
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.867176
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM101-M2640-Color”
+	delay 2.215765
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 7 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.688945
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.643936
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.115223
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.605658
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.095655
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM101-M2640-Color-Duplex”
+	delay 2.532553
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 8 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.192195
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.820140
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.327153
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.197204
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.991040
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM107-M6630-BW”
+	delay 2.235694
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 9 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M2640idw Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.527629
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 2.388095
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.171262
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.803359
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.607023
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM107-M6630-BW-Duplex”
+	delay 3.177083
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 10 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.466631
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.627623
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.263104
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.124601
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.975703
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM107-M6630-Color”
+	delay 2.148158
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 11 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 3.673679
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.527005
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.515563
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.089220
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.668669
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM107-M6630-Color-Duplex”
+	delay 1.815174
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 12 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.451790
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.355002
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.279323
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.005230
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.159463
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM300-8353-BW”
+	delay 2.108015
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 13 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.136201
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.603673
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.491687
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.857393
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 3.329414
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM300-8353-BW-Duplex”
+	delay 2.155808
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 14 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.391415
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.618915
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.835714
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.361360
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 3.056189
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM300-8353-Color”
+	delay 2.825067
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 15 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.284335
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.591062
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.386249
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.904303
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.467901
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THLO-RM300-8353-Color-Duplex”
+	delay 3.512950
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 16 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.039623
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.530923
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.483502
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.736014
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 3.336469
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THUP-RM100-M6630-BW”
+	delay 2.228025
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 17 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.855848
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 2.155751
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 2.091708
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.801251
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.167584
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THUP-RM100-M6630-BW-Duplex”
+	delay 1.627686
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 18 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.131300
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.551383
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.275379
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.817220
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.195493
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THUP-RM100-M6630-Color”
+	delay 2.248100
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 19 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.259364
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.495345
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.146464
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.880855
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.971143
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THUP-RM100-M6630-Color-Duplex”
+	delay 1.786910
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 20 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.495527
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.602712
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.135088
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.908889
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.975496
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THUP-RM205-6053-BW”
+	delay 2.019250
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 21 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.000034
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.515299
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.178668
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.672362
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.575820
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THUP-RM205-6053-BW-Duplex”
+	delay 2.043796
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 22 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.347416
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.471125
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.323265
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.905294
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.740759
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THUP-RM205-6053-Color”
+	delay 3.537146
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 23 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.615521
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.643088
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.163172
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.736266
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.935228
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “4THUP-RM205-6053-Color-Duplex”
+	delay 1.775434
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 24 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.667663
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.839745
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.163046
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.273403
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.464179
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGES-RM132-M6630-BW”
+	delay 2.175643
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 25 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 6053ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.819914
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.382629
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.299400
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.928884
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.352279
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGES-RM132-M6630-BW-Duplex”
+	delay 1.763439
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 26 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.399603
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.435561
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.523488
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.985195
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.071642
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGES-RM132-M6630-Color”
+	delay 2.059624
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 27 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.546981
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.462908
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.019261
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.539669
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.948397
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGES-RM132-M6630-Color-Duplex”
+	delay 1.639642
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 28 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.683691
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.478950
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.346778
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.745342
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.828649
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGES-RM151-6002-BW”
+	delay 1.939655
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 29 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.832241
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.475477
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.094402
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.684806
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.943556
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGES-RM151-6002-BW-Duplex”
+	delay 1.884167
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 30 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.415656
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.643883
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.226823
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.657671
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.895660
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGES-RM240-8353-BW”
+	delay 3.697774
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 31 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 6002i Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.615483
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.451734
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 0.998878
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.581310
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.439947
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGES-RM240-8353-BW-Duplex”
+	delay 2.023685
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 32 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.144504
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.435388
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.527453
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.880722
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.027523
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGES-RM240-8353-Color”
+	delay 2.248580
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 33 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.475462
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.575270
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.495023
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.096961
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.755832
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGES-RM240-8353-Color-Duplex”
+	delay 2.167372
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 34 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.871426
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.515479
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.455210
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.056780
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.078654
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGMS-RM112-8353-BW”
+	delay 2.534006
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 35 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.823091
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.611501
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.159150
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 3.088718
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 3.001136
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGMS-RM112-8353-BW-Duplex”
+	delay 2.004105
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 36 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.795934
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.735988
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.378924
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.969849
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.832993
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGMS-RM112-8353-Color”
+	delay 2.612412
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 37 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.040158
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.571794
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.098181
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.921128
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.827482
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGMS-RM112-8353-Color-Duplex”
+	delay 2.199956
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 38 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 2.400658
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.932164
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.475565
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.801393
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.288267
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGMS-RM124-M6630-BW”
+	delay 3.285852
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 39 of table 1 of scroll area 2 of group 1 of window \"TASKalfa 8353ci Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.775255
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.538878
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.066435
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.777089
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.480306
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGMS-RM124-M6630-BW-Duplex”
+	delay 1.659744
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 40 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.218715
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.535585
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.194899
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.648844
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 2.344091
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGMS-RM124-M6630-Color”
+	delay 1.935374
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 41 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.307459
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.455675
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.026373
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Apply” button.
+	delay 2.577049
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Apply\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Printer” button.
+	delay 1.907596
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Printer\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text “YGMS-RM124-M6630-Color-Duplex”
+	delay 1.607668
+	set timeoutSeconds to 2.000000
+	set uiScript to "click static text 1 of UI Element 1 of row 42 of table 1 of scroll area 2 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “Job” button.
+	delay 1.523126
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"Job\" of group 2 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “<fill in title>” checkbox.
+	delay 1.391586
+	set timeoutSeconds to 2.000000
+	set uiScript to "click checkbox 3 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the text field.
+	delay 1.195195
+	set timeoutSeconds to 2.000000
+	set uiScript to "click text field 1 of group 1 of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+
+	-- Click the “OK” button.
+	delay 2.753419
+	set timeoutSeconds to 2.000000
+	set uiScript to "click UI Element \"OK\" of window \"ECOSYS M6630cidn Print Panel\" of application process \"Kyocera Print Panel\""
+	my doWithTimeout( uiScript, timeoutSeconds )
+	return input
+end run
+
+on doWithTimeout(uiScript, timeoutSeconds)
+	set endDate to (current date) + timeoutSeconds
+	repeat
+		try
+			run script "tell application \"System Events\"
+" & uiScript & "
+end tell"
+			exit repeat
+		on error errorMessage
+			if ((current date) > endDate) then
+				error "Can not " & uiScript
+			end if
+		end try
+	end repeat
+end doWithTimeout

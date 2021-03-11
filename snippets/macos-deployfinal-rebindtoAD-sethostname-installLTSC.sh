@@ -1,4 +1,5 @@
 #!/bin/bash
+profiles renew -type enrollment
 #unbind from AD
 dsconfigad -f -r -u "administrator"
 #hname=""
@@ -31,3 +32,4 @@ cp -R /Volumes/SHARES-YOUNG/Temp/cw /Users/Shared/Provisioning
 # install LT and SC
 installer -pkg "/Users/Shared/Provisioning/cw/lt.mpkg" -allowUntrusted -target /
 # installer -pkg "/Users/Shared/Provisioning/cw/sc.pkg" -allowUntrusted -target /
+diskutil umount /Volumes/SHARES-YOUNG

@@ -20,4 +20,6 @@ sudo cp -R /Volumes/SHARES-YOUNG/Temp/cw /Users/Shared/Provisioning
 # sudo unzip -o "$LabtechName"
 # install LT and SC
 sudo installer -pkg "/Users/Shared/Provisioning/cw/lt.mpkg" -allowUntrusted -target /
-sudo installer -pkg "/Users/Shared/Provisioning/cw/sc.pkg" -allowUntrusted -target /
+# sudo installer -pkg "/Users/Shared/Provisioning/cw/sc.pkg" -allowUntrusted -target /
+diskutil unmount /Volumes/SHARES-YOUNG
+

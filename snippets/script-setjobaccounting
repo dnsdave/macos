@@ -2,6 +2,33 @@
 #This is a script to set the job accounting code for Kyocera print drivers on macOS
 #It uses the PlistBuddy utility installed in macOS to edit the print preference plist file
 
-/usr/libexec/PlistBuddy -c "Set :2ndfloor:com.apple.print.preset.settings:ManagementCodeValue 1001" ~/Library/Preferences/com.apple.print.custompresets.forprinter.CMI2ndFloorColor.plist
+/usr/libexec/PlistBuddy -c "Set :6630bwdup:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+/usr/libexec/PlistBuddy -c "Set :6630bw:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+/usr/libexec/PlistBuddy -c "Set :6630coldup:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+/usr/libexec/PlistBuddy -c "Set :6630coldup:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
 
-/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 1001" ~/Library/Preferences/com.apple.print.custompresets.forprinter.CMI2ndFloorColor.plist
+/usr/libexec/PlistBuddy -c "Set :6053bwdup:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+/usr/libexec/PlistBuddy -c "Set :6053bw:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+/usr/libexec/PlistBuddy -c "Set :6053coldup:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+/usr/libexec/PlistBuddy -c "Set :6053col:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+
+/usr/libexec/PlistBuddy -c "Set :8353bwdup:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+/usr/libexec/PlistBuddy -c "Set :8353bw:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+/usr/libexec/PlistBuddy -c "Set :8353colup:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+/usr/libexec/PlistBuddy -c "Set :8353col:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+
+/usr/libexec/PlistBuddy -c "Set :6002bwdup:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+/usr/libexec/PlistBuddy -c "Set :6002bw:com.apple.print.preset.settings:ManagementCodeValue 1002" ~/Library/Preferences/com.apple.print.custompresets.plist
+
+
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 8703" ~/Library/Preferences/com.apple.print.custompresets.forprinter.4THUP-RM100-M6630-BW-Duplex.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 8703" ~/Library/Preferences/com.apple.print.custompresets.forprinter.4THUP-RM100-M6630-BW.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 8703" ~/Library/Preferences/com.apple.print.custompresets.forprinter.4THUP-RM100-M6630-Color-Duplex.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 8703" ~/Library/Preferences/com.apple.print.custompresets.forprinter.4THUP-RM100-M6630-Color.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 8703" ~/Library/Preferences/com.apple.print.custompresets.forprinter.4THUP-RM205-6053-BW-Sided.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 8703" ~/Library/Preferences/com.apple.print.custompresets.forprinter.4THUP-RM205-6053-BW.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 8703" ~/Library/Preferences/com.apple.print.custompresets.forprinter.4THUP-RM205-6053-Color-Duplex.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 8703" ~/Library/Preferences/com.apple.print.custompresets.forprinter.4THUP-RM205-6053-Color.plist
+
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 8703" ~/Library/Preferences/com.apple.print.custompresets.forprinter.4THUP-RM100-M6630-BW-Duplex.plist
+/usr/libexec/PlistBuddy -c "Set :com.apple.print.lastUsedSettingsPref:com.apple.print.preset.settings:ManagementCodeValue 8703" ~/Library/Preferences/com.apple.print.custompresets.forprinter.4THUP-RM100-M6630-BW-Duplex.plist
