@@ -1,8 +1,8 @@
 #!/bin/bash
 adminUsername="administrator"
-adminPassword="TR@dmin"
+adminPassword=""
 USERNAME="administrator"
-USERPASSWORD="TR@dmin"
+USERPASSWORD=""
 /System/Library/CoreServices/ManagedClient.app/Contents/Resources/createmobileaccount -D -n $USERNAME  -p $USERPASSWORD
 
 #-a $adminUsername -U $adminPassword 
